@@ -5,7 +5,6 @@
 
 process RUN_MIRMAP {
 
-	echo
 	publishDir "./test/results", mode: "copy"
     input:
     path mirna_ch
