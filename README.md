@@ -8,7 +8,7 @@ Basic ideas:
 
 -   Identify miRNA targets with Targetscan and miRmap
 
--    Create a unique identifier for each result and export it in a TSV file ---
+
 
 ## Inputs:
 
