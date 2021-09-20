@@ -7,9 +7,9 @@ process RUN_MIRMAP {
 
 	publishDir "./test/results", mode: "copy"
     input:
-    path mirna_ch
-		path utr_ch
-		path mirmap_script
+    	path mirna_ch
+	path utr_ch
+	path mirmap_script
 
     output:
 		path "${mirna_ch.baseName}.mirmapout"
